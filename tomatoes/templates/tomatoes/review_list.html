@@ -1,9 +1,22 @@
+{% load static %}
 <html>
-    <head>
-        <title>Tomatoes reviews</title>
-    </head>
-    <body>
-        <p>Hi there!</p>
-        <p>It works!</p>
-    </body>
+	<head>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="{% static 'css/main.css' %}">
+		<title>tomatoes reviews</title>
+		<script src="1.js"></script>
+		<meta charset="utf-8">
+        	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        	<title>Sign Up Form</title>
+        	<link rel="stylesheet" href="css/normalize.css">
+        	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+        	<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<form action="index.html" method="post">
+			<textarea id="bio" name="student_bio"></textarea>
+			<button onClick="myScript()">Старт</button>
+		</form>
+	</body>
 </html>

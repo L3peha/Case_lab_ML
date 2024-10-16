@@ -1,0 +1,14 @@
+html{
+  height: 100%;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.bio{
+  width: 50vw;
+  height: 50vh;
+  background: red;
+}
