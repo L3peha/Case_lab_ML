@@ -6,9 +6,9 @@ body{
   justify-content: center;
   align-items: center;
   height: 100%;
+  padding-top: 200px;
 }
-.bio{
-  width: 50vw;
+.container{
+  width: 10vw;
   height: 50vh;
-  background: red;
 }
